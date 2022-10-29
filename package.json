@@ -1,0 +1,19 @@
+{
+  "name": "prueba-corta",
+  "version": "1.0.0",
+  "description": "Progra 4 846",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cuadra13/Prueba-Corta.git"
+  },
+  "author": "Nelson Cuadra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cuadra13/Prueba-Corta/issues"
+  },
+  "homepage": "https://github.com/Cuadra13/Prueba-Corta#readme"
+}
