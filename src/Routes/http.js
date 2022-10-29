@@ -7,6 +7,5 @@ const server = http.createServer(function(peticion, respuesta){
     respuesta.end()
 });
 
-server.listen(8080, 'localhost', function(error){
-    console.log('Servidor disponible:  htttp://${host}:${port}')
-})
+server.listen(port,host, function(error){
+    console.log('Servidor disponible: http://$')})
