@@ -10,4 +10,16 @@ router.get('/', (req,res) => {
     });
 });
 
-router.get()
+router.get('/tablas', (req, res) => {
+    res.render('tablas');
+})
+
+router.post('/tablas', (req, res) => {
+    const{tabla} = req.body;
+    let newBook = {
+        tabla
+    };
+    books.push(newBook);
+    const json_books = JSON.stringify(books)
+    fs.writeFileSync('src/books.json', json_books, 'utf-8');
+})
