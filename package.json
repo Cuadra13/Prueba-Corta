@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Cuadra13/Prueba-Corta/issues"
   },
-  "homepage": "https://github.com/Cuadra13/Prueba-Corta#readme"
+  "homepage": "https://github.com/Cuadra13/Prueba-Corta#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
