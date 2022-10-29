@@ -1,12 +1,5 @@
-const http = require('http')
-const host = "127.0.0.1"
-const port = 80;
-const server = http.createServer(function(peticion, respuesta){
-    respuesta.writeHead(200,{'Content-Type':'application.txt'})
-    respuesta.write('Tablas')
-    respuesta.end()
-});
-
-server.listen(port,host,function(error){
-    console.log('Servidor disponible: http://${host}:${port}')
-})
+const { Router } = require('express');
+const router = Router();
+const fs = require('fs');
+const json_books = fs.readFileSync('src/books.json ', 'utf-8');
+let books = JSON.parse(json_books);
