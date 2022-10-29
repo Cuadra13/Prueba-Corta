@@ -7,6 +7,6 @@ const server = http.createServer(function(peticion, respuesta){
     respuesta.end()
 });
 
-server.listen(port,host, function(error){
+server.listen(port,host,function(error){
     console.log('Servidor disponible: http://${host}:${port}')
 })
