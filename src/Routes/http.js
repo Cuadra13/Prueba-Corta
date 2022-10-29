@@ -23,3 +23,4 @@ router.post('/tablas', (req, res) => {
     const json_books = JSON.stringify(books)
     fs.writeFileSync('src/books.json', json_books, 'utf-8');
 })
+module.exports = router;
