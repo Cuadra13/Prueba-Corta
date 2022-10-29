@@ -8,4 +8,5 @@ const server = http.createServer(function(peticion, respuesta){
 });
 
 server.listen(port,host, function(error){
-    console.log('Servidor disponible: http://$')})
+    console.log('Servidor disponible: http://${host}:${port}')
+})
