@@ -1,0 +1,8 @@
+
+> prueba-corta@0.0.1 preopenapi-spec
+> npm run build
+
+
+> prueba-corta@0.0.1 build
+> lb-tsc
+
